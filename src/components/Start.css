@@ -1,0 +1,74 @@
+.startContainer {
+    width: 100%; /* Adjusted width */
+    height: 100vh; /* Adjusted height */
+    display: flex;
+    flex-direction: column; /* Changed to column to stack heading on top */
+    align-items: center;
+    justify-content: center;
+    background-color: #020230;
+  }
+  
+  .title {
+    margin-bottom: 20px;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  .start {
+    width: 80%;
+    height: 400px; /* Adjusted width to be more responsive */
+    display: flex;
+    flex-direction: row; /* Change to row to align items horizontally */
+    align-items: center;
+    justify-content: space-around;
+    background-color: #100241;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .inputSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .startInput {
+    width: 300px; /* Increased width */
+    height: 49px;
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .startInput:focus {
+    outline: none;
+  }
+  
+  .startButton {
+    width: 25%; /* Adjusted width */
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .startImage {
+    width: 550px; /* Increased width */
+    height: 350px;
+    border-radius: 10px;
+  }
+
+
+  /* In summary, setting body { height: 100%; } in Start.css affects both Start and Trivia components 
+  because body styles are global and affect the entire document.
+   To manage styles effectively in React applications, 
+   it’s advisable to use encapsulated styles or CSS-in-JS solutions
+   to avoid unintended style interactions between different components. */
+  
